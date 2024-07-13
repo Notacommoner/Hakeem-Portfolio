@@ -1,0 +1,594 @@
+@media (max-width: 1024px) {
+    body {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    
+    /* .skillset img {
+        padding: 0px 10px;
+        width: 267px;
+        height: 305px;
+    } */
+
+    
+                /* Navigation */
+                /* Navigation */
+
+nav{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+ }
+ 
+ nav .mainlogo {
+     width: 107px;
+     height: 39px;
+ }
+ 
+ nav .hamburger {
+    width: 34px;
+    height: 34px;
+    display: none;
+ }
+ 
+ .nav-button {
+     font-family: Poppins;
+     font-size: 9.312px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 145%;
+     margin-top: 16px;
+     margin-bottom: 30px;
+     display: inline-flex;
+     align-items: flex-start;
+     gap: 23px;
+ }
+ 
+ .nav-button a {
+     color: #000000 !important;
+ }
+ 
+ .btn-cv {
+     /* Layout */
+     width: 160px;
+     height: 56px;
+     /* Typography */
+     color: #000;
+     text-align: center;
+     font-family: Poppins;
+     font-size: 10px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 150%;
+     
+     background: #FFF;
+     padding: 16px 24px;
+     border-width: 2px;
+     border-radius: 12px;
+     border-style:  solid;
+     border-color: var(--primary);
+ }
+ 
+ .btn-cv a {
+    color: #000000 !important;
+ }
+ 
+ .btn-cv:hover {
+     cursor: pointer;
+ }
+ 
+                      /* END OF NAVIGATION */
+ 
+ 
+                     /* Hero section */
+                     /* Hero section */
+ 
+ .hero{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 30px;
+ }
+ 
+ .hero h1{
+    color: #132238;
+    font-family: "Work Sans";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 49.42px; 
+ }
+ 
+ .hero .bio-container{
+     margin-top: 86px;
+ }
+ 
+ .hero .name {
+     color: var(--primary);
+ }
+ 
+ .hero .bio {
+    color: #556070;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    }
+ 
+ .hero img{
+    width: 250px;
+    height: 333px;
+ }
+ 
+ .button{
+     margin-top: 24px;
+     display: inline-flex;
+    padding: 7.06px 14.12px;
+    justify-content: center;
+    align-items: center;
+     border-radius: 4px;
+     background: var(--primary);
+ 
+     width: 113px;
+     height: 29px;
+ 
+     color: #FFF;
+     font-family: Poppins;
+     font-size: 10px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 14.12px;
+ }
+ 
+                 /* End of hero section */
+ 
+ 
+                 /* Achievements */
+                 /* Achievements */
+ 
+ #achievements{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 63px ;
+ }
+ 
+ #achievements .satisfied-clients h2 {
+    color: var(--primary-color, #5D18B0);
+    font-family: Poppins;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.049px;
+     margin-bottom: 24px;
+ }
+ 
+ #achievements .satisfied-clients p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.362px;
+ }
+ 
+ #achievements .projects h2 {
+    color: var(--primary-color, #5D18B0);
+    font-family: Poppins;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.049px;
+     margin-bottom: 24px;
+ }
+ 
+ #achievements .projects p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.362px;
+ }
+ 
+ #achievements .reviews h2 {
+    color: var(--primary-color, #5D18B0);
+    font-family: Poppins;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.049px;
+     margin-bottom: 24px;
+ }
+ 
+ #achievements .reviews p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.362px;
+ }
+ 
+                     /* End of achievement */
+ 
+                 /* Skills */
+                 /* Skills */
+ 
+ #skills-section {
+     margin-top: 50px ;
+     background: rgba(246, 238, 255, 0.50);
+     padding: 53px 0px;
+     /* padding-top: 53px;
+     padding-bottom: 53px; */
+ 
+ }
+ 
+ #skills-section .skills {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ #skills-section .skills h2 {
+     align-items: center;
+     color: var(--primary);
+     font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17.829px;
+ }
+ 
+ #skills-section .skills p {
+     color: #000;
+     text-align: center;
+     font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17.829px; 
+ }
+ 
+ #skills-section .skillset {
+    
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-top: 45px;
+     padding-left: 30px;
+     padding-right: 30px;
+ }
+
+ .skillset img {
+    padding: 0px 10px;
+    width: 198px;
+    height: 226px;
+}
+ 
+ #skills-section .skillsetbuttons {
+     display: flex;
+     justify-content: center;
+     margin-top: 72px;
+ }
+ 
+ #skills-section .skillsetbuttons .hire {
+    display: inline-flex;
+    padding: 9.338px 18.676px;
+    justify-content: center;
+    align-items: center;
+    gap: 9.338px;
+ 
+     border-radius: 4px;
+     border: 2px solid var(--primary);
+     margin-right: 59px;
+ 
+     color: #000;
+
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18.676px;
+     }
+ 
+ #skills-section .skillsetbuttons .cv {
+    display: inline-flex;
+    padding: 9.338px 18.676px;
+    justify-content: center;
+    align-items: center;
+    gap: 9.338px;
+ 
+     border-radius: 4px;
+     background: #5D18B0;
+     color: #FFF;
+ 
+     font-family: Poppins;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 18.676px;
+ }
+ 
+                     /* End of skills section */
+ 
+                 /* Project Section */
+                 /* Project Section */
+ 
+ #projectsection .projects {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 50px;
+ }
+ 
+ #projectsection .projects h2 {
+     color: var(--primary);
+     text-align: center;
+     font-family: Poppins;
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 17.771px
+ }
+ 
+ #projectsection .projects p {
+     color: #000;
+     text-align: center;
+     font-family: Poppins;
+     font-size: 11px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 17.771px;
+ }
+ 
+ #projectsection .projectcontent {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-top: 73px;
+     padding-left: 100px;
+     padding-right: 100px;
+ }
+ 
+ #projectsection .projectcontent img {
+    width: 260px;
+    height: 310px;
+    
+ }
+
+                 /* End of project section */
+ 
+                     /* Testimonial */
+                     /* Testimonial */
+ 
+ #testimonial-section {
+     margin-top: 50px ;
+     background: rgba(246, 238, 255, 0.50);
+     /* padding: 53px 0px ; */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+ }
+ 
+ #testimonial-section .testimonial { 
+     color: var(--primary);
+     text-align: center;
+     font-family: Poppins;
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 14.86px;
+ }
+ 
+ #testimonial-section .subheading {
+     margin-top: 30px;
+     color: #000;
+     text-align: center;
+     font-family: Poppins;
+     font-size: 11px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 14.86px;
+ }
+ 
+ #testimonial-section .textbody {
+     margin-top: 49px;
+     color: var(--primary-color, #5D18B0);
+     text-align: center;
+     font-family: Poppins;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 14.86px;
+ }
+ 
+ #testimonial-section .reviewername{
+     margin-top: 47px;
+     color: #000;
+     text-align: center;
+     font-family: Poppins;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 14.86px;
+ }
+ 
+ #testimonial-section .reviewertitle {
+     margin-top: 17px;
+     color: #000;
+     text-align: center;
+     font-family: Poppins;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 14.86px;
+ }
+ 
+                     /* End of Testimonial */
+ 
+ 
+                 /* Contact Section */
+                 /* Contact Section */
+ 
+ #contactsection .contact {
+     margin-top: 50px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+ }
+ 
+ #contactsection .contact h2 {
+     color: var(--primary-color, #5D18B0);
+     text-align: center;
+     font-family: Poppins;
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 19.29px;
+ }
+ 
+ #contactsection .contact p {
+     margin-top: 30px;
+     color: #000;
+     text-align: center;
+     font-family: Poppins;
+     font-size: 11px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 19.29px;
+ }
+ 
+ #contactsection .forms {
+     margin-top: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+ }
+ 
+ #contactsection .forms input {
+     border-radius: 8px;
+     border: 0.3px solid #BEC0BF;
+     background: var(--Light-Base-Color-White, #FFF);
+     width: 273px;
+    height: 45px;
+
+ }
+ 
+ 
+ #contactsection textarea {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 24px;
+     border-radius: 8px;
+     border: 0.3px solid #BEC0BF;
+     background: var(--Light-Base-Color-White, #FFF);
+     width: 567px;
+     height: 136px;
+ }
+ 
+ 
+ ::placeholder {
+     padding-left: 24px;
+     color: var(--Light-Text-Color-Body-1, #92929D);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: 0.096px;
+ }
+ 
+ #contactsection .submit {
+     margin-top: 24px;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     padding: 11.027px 22.054px;
+     justify-content: center;
+     align-items: center;
+     gap: 11.027px;
+     border-radius: 4px;
+     background: #5D18B0;
+     justify-items: center;
+ 
+     color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22.054px; 
+ }
+ 
+ .contactinfo {
+     display: flex;
+     justify-content: center;
+     gap: 74px;
+     margin-top: 74px;
+ }
+ 
+ 
+ .contactinfo .email {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 24px;
+ }
+ 
+ .contactinfo h2 {
+     color: #000;
+     font-family: Poppins;
+     font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    letter-spacing: 0.088px;
+     }
+ 
+ .contactinfo img {
+     padding: 8px;
+     background-color: var(--primary);
+     border-radius: 4px;
+     width: 36px;
+    height: 36px;
+
+
+ }
+ 
+ .contactinfo .linkedin{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 24px;
+ }
+ 
+ .footer {
+     display: flex;
+     justify-content: center;
+     margin-top: 100px;
+     padding-top: 52px;
+     padding-bottom: 52px;
+     background: rgba(246, 238, 255, 0.50);
+ 
+     color: #000;
+     font-family: Poppins;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 16px;
+ }
+    
+}

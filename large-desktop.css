@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #5D18B0;
+    --white: #ffffff;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    
+    text-decoration: none;
+}
+  
+/* Make image,video, and audio tag to take 100% of the screen to fix
+overflow or horizontal scrolling */
+img,
+video,
+audio{
+    max-width: 100%;
+}
+
+                /* All Content Padding */
+                /* All Content padding */
+
+body {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+                /* Navigation */
+                /* Navigation */
+
+nav{
+   display: flex;
+   margin-top: 30px;
+   justify-content: space-between;
+}
+
+nav .mainlogo {
+    width: 187px;
+    height: 68.667px;
+}
+
+nav .hamburger {
+    width: 34px;
+    height: 34px;
+    display: none;
+ }
+
+
+.nav-button {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.nav-button a {
+    color: #000000 !important;
+}
+
+.btn-cv {
+    /* Layout */
+    width: 165px;
+    height: 56px;
+    /* Typography */
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    
+    background: #FFF;
+    padding: 16px 24px;
+    border-width: 2px;
+    border-radius: 12px;
+    border-style:  solid;
+    border-color: var(--primary);
+}
+
+.btn-cv a {
+    color: #000000 !important;
+}
+
+.btn-cv:hover {
+    cursor: pointer;
+}
+
+                     /* END OF NAVIGATION */
+
+
+                    /* Hero section */
+                    /* Hero section */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.hero h1{
+    color: #132238;
+    /* Display */
+    font-family: "Work Sans", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 84px;
+}
+
+.hero .bio-container{
+    margin-top: 86px;
+}
+
+.hero .name {
+    color: var(--primary);
+}
+
+.hero .bio {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #556070;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.hero img{
+    width: 424px;
+    height: 560px;
+}
+
+.button{
+    margin-top: 24px;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--primary);
+
+    width: 184px;
+    height: 48px;
+
+    color: #FFF;
+
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+                /* End of hero section */
+
+
+                /* Achievements */
+                /* Achievements */
+
+#achievements{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 63px ;
+}
+
+#achievements .satisfied-clients h2 {
+    color: var(--primary-color, #5D18B0);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+#achievements .satisfied-clients p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#achievements .projects h2 {
+    color: var(--primary-color, #5D18B0);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+#achievements .projects p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#achievements .reviews h2 {
+    color: var(--primary);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+
+#achievements .reviews p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+                    /* End of achievement */
+
+                /* Skills */
+                /* Skills */
+
+#skills-section {
+    margin-top: 50px ;
+    background: rgba(246, 238, 255, 0.50);
+    padding: 53px 0px;
+    /* padding-top: 53px;
+    padding-bottom: 53px; */
+
+}
+
+#skills-section .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#skills-section .skills h2 {
+    align-items: center;
+    color: var(--primary);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#skills-section .skills p {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+#skills-section .skillset {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+#skills-section .skillsetbuttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+}
+
+#skills-section .skillsetbuttons .hire {
+    display: inline-flex;
+    padding: 17.25px 34.5px;
+    justify-content: center;
+    align-items: center;
+    gap: 17.25px;
+
+    border-radius: 5.75px;
+    border: 2px solid var(--primary);
+    margin-right: 59px;
+
+    color: #000;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34.5px;
+    }
+
+#skills-section .skillsetbuttons .cv {
+    display: inline-flex;
+    padding: 17.25px 34.5px;
+    justify-content: center;
+    align-items: center;
+    gap: 17.25px;
+
+    border-radius: 5.75px;
+    background: #5D18B0;
+    color: #FFF;
+
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34.5px;
+}
+
+                    /* End of skills section */
+
+                /* Project Section */
+                /* Project Section */
+
+#projectsection .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#projectsection .projects h2 {
+    color: var(--primary);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#projectsection .projects p {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+#projectsection .projectcontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 73px;
+    /* padding: 0px 120px; */
+}
+
+                /* End of project section */
+
+                    /* Testimonial */
+                    /* Testimonial */
+
+#testimonial-section {
+    margin-top: 50px ;
+    background: rgba(246, 238, 255, 0.50);
+    padding: 53px 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#testimonial-section .testimonial { 
+    color: var(--primary);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#testimonial-section .subheading {
+    margin-top: 30px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px
+}
+
+#testimonial-section .textbody {
+    margin-top: 49px;
+    color: var(--primary-color, #5D18B0);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#testimonial-section .reviewername{
+    margin-top: 47px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#testimonial-section .reviewertitle {
+    margin-top: 17px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+                    /* End of Testimonial */
+
+
+                /* Contact Section */
+                /* Contact Section */
+
+#contactsection .contact {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#contactsection .contact h2 {
+    color: var(--primary-color, #5D18B0);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#contactsection .contact p {
+    margin-top: 30px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+#contactsection .forms {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+#contactsection .forms input {
+    border-radius: 8px;
+    border: 0.3px solid #BEC0BF;
+    background: var(--Light-Base-Color-White, #FFF);
+    width: 340px;
+    height: 56px;
+}
+
+
+#contactsection textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    border-radius: 8px;
+    border: 0.3px solid #BEC0BF;
+    background: var(--Light-Base-Color-White, #FFF);
+    width: 706px;
+    height: 170px;
+}
+
+
+::placeholder {
+    padding-left: 24px;
+    color: var(--Light-Text-Color-Body-1, #92929D);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: 0.128px;
+}
+
+#contactsection .submit {
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 17px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    border-radius: 10px;
+    background: #5D18B0;
+    color: #FFF;
+    justify-items: center;
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px; 
+}
+
+.contactinfo {
+    display: flex;
+    justify-content: center;
+    gap: 74px;
+    margin-top: 74px;
+}
+
+
+.contactinfo .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.contactinfo h2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.128px;
+    }
+
+.contactinfo img {
+    padding: 14px;
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+
+.contactinfo .linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    background: rgba(246, 238, 255, 0.50);
+
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+}
